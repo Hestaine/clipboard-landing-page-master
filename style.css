@@ -33,7 +33,7 @@ header {
 }
 
 .bg-header-mobile {
-  width: 95vw;
+  width: 94vw;
   position: relative;
 }
 .header-logo {
@@ -182,6 +182,21 @@ header > p {
 }
 
 .clipboard {
+  gap: 1rem;
   display: flex;
+  align-items: center;
   flex-direction: column;
+}
+
+.clipboard > h3 {
+  width: 19;
+  font-weight: 600;
+  font-size: 1.75rem;
+  text-align: center;
+  color: var(--Dark-Grayish-Blue);
+}
+
+footer {
+  width: 94vw;
+  background-color: var(--Grayish-Blue);
 }
