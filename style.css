@@ -197,6 +197,34 @@ header > p {
 }
 
 footer {
-  width: 94vw;
-  background-color: var(--Grayish-Blue);
+  gap: 2rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  flex-direction: column;
+  transform: translateX(-19px);
+  background-color: rgba(158, 171, 178, 0.3);
+}
+
+.logo-footer {
+  width: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content > div > p {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.footer-content > p {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.social-media {
+  gap: 2rem;
+  display: flex;
 }
