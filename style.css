@@ -1,3 +1,4 @@
+/* Universal style */
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 :root {
   --Strong-Cyan: hsl(171, 66%, 44%);
@@ -15,4 +16,19 @@
 
 .bg-header-desktop {
   display: none;
+}
+
+/* Main style */
+main {
+  width: 100vw;
+}
+
+.bg-header-mobile {
+  width: 100%;
+  position: relative;
+}
+.header-logo {
+  left: 110px;
+  top: 130px;
+  position: absolute;
 }
