@@ -235,3 +235,58 @@ footer {
   display: flex;
   cursor: pointer;
 }
+
+.social-logo {
+  z-index: 5;
+}
+
+.social-logo:hover {
+  color: #26bba4;
+}
+
+.footer-content > p:hover {
+  color: #26bba4;
+}
+
+.footer-content > div > p:hover {
+  color: #26bba4;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 0;
+  }
+  .bg-header-mobile {
+    height: 25rem;
+  }
+  .header-logo {
+    top: 150px;
+    left: 335px;
+  }
+  .buttons {
+    gap: 1.5rem;
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+  .download {
+    width: 15rem;
+  }
+  footer {
+    flex-direction: row;
+    transform: none;
+    padding: 2rem 3.5rem;
+  }
+  .footer-content {
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .footer-content > p {
+    width: 7rem;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .footer-content > div > p {
+    width: 7rem;
+    text-align: left;
+  }
+}
