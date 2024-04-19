@@ -310,6 +310,10 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  main {
+    width: 100vw;
+    overflow-x: hidden;
+  }
   .bg-header-mobile {
     display: none;
   }
@@ -319,7 +323,7 @@ footer {
   }
   .header-logo {
     top: 100px;
-    left: 440px;
+    left: 600px;
   }
   header > h3 {
     width: 44rem;
@@ -351,7 +355,7 @@ footer {
 
   .quick-sync-history {
     gap: 0;
-    width: 47rem;
+    width: 40rem;
     margin-top: 4.5rem;
     position: relative;
     flex-direction: row;
@@ -363,7 +367,7 @@ footer {
   }
   .computer {
     top: -40px;
-    left: -190px;
+    left: -350px;
     position: absolute;
   }
 
