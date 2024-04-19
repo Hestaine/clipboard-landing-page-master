@@ -289,6 +289,24 @@ footer {
     width: 7rem;
     text-align: left;
   }
+  footer {
+    flex-direction: row;
+    transform: none;
+    padding: 2rem 3.5rem;
+  }
+  .footer-content {
+    gap: 1rem;
+    flex-direction: row;
+  }
+  .footer-content > p {
+    width: 7rem;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .footer-content > div > p {
+    width: 7rem;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -296,100 +314,75 @@ footer {
     display: none;
   }
   .bg-header-desktop {
+    width: 100vw;
     display: block;
   }
   .header-logo {
-    left: 645px;
+    top: 100px;
+    left: 440px;
   }
   header > h3 {
-    width: 21rem;
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    color: var(--Dark-Grayish-Blue);
+    width: 44rem;
   }
 
   p {
-    width: 19rem;
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 2rem;
-    letter-spacing: 0.007rem;
-    line-height: 1.625rem;
-    color: var(--Grayish-Blue);
+    width: 44rem;
   }
 
   header > p {
-    width: 20rem;
-    text-indent: 10px;
-  }
-
-  .buttons {
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
+    font-size: 0.95rem;
+    width: 33.5rem;
+    text-indent: 0;
   }
 
   .download {
-    color: #fff;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 1rem 4rem;
-    border-radius: 7rem;
-    box-shadow: 1px 1px 8px black;
-    background-color: var(--Strong-Cyan);
-  }
-
-  .download-mac {
-    background-color: var(--Light-Blue);
+    width: 16rem;
+    padding: 1rem 1rem;
   }
 
   .keep-track {
     gap: 1rem;
-    display: flex;
-    flex-direction: column;
     align-items: center;
   }
 
   .keep-track > h3 {
-    width: 21rem;
-    font-size: 1.75rem;
-    font-weight: 600;
-    text-align: center;
-    color: var(--Dark-Grayish-Blue);
+    width: 44rem;
   }
 
   .quick-sync-history {
-    gap: 4rem;
-    display: flex;
-    flex-direction: column;
+    gap: 0;
+    width: 47rem;
+    margin-top: 4.5rem;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .laptop {
-    width: 19rem;
+    width: 35rem;
+  }
+  .computer {
+    top: -40px;
+    left: -190px;
+    position: absolute;
   }
 
   .quick-text {
     gap: 1.5rem;
-    display: flex;
-    flex-direction: column;
   }
 
   .quick-text > div {
-    gap: 1rem;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+    gap: 0;
+    width: 20rem;
+    text-align: left;
   }
 
   .quick-text > div > h3 {
-    width: 19rem;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: var(--Dark-Grayish-Blue);
+    width: 20rem;
+  }
+  .quick-text > div > p {
+    width: 22rem;
+    text-align: left;
   }
 
   .quick-text > div > h3 {
@@ -400,45 +393,40 @@ footer {
   }
 
   .access {
-    gap: 1rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .access > h3 {
-    width: 19rem;
-    font-weight: 600;
-    font-size: 1.75rem;
-    color: var(--Dark-Grayish-Blue);
+    width: 44rem;
   }
 
   .access > p {
-    width: 20rem;
+    width: 41rem;
+  }
+
+  .devices {
+    margin-top: 2rem;
   }
 
   .create-text-preview {
     gap: 2rem;
-    display: flex;
-    margin-bottom: 5rem;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
   }
 
   .create-text-preview > div > h3 {
-    margin-top: 3rem;
+    width: 18rem;
+    justify-content: center;
   }
 
   .create-text-preview > div > p {
-    width: 20rem;
-    margin-top: 0.7rem;
+    width: 17rem;
   }
 
   .companies {
     gap: 4rem;
-    width: 22rem;
-    display: flex;
-    flex-direction: column;
+    width: 62rem;
+    flex-direction: row;
   }
 
   .clipboard {
@@ -450,46 +438,55 @@ footer {
 
   .clipboard > h3 {
     width: 19;
-    font-weight: 600;
-    font-size: 1.75rem;
-    text-align: center;
-    color: var(--Dark-Grayish-Blue);
   }
-
+  .clipboard > p {
+    width: 39rem;
+  }
   footer {
-    gap: 2rem;
-    width: 100vw;
-    display: flex;
+    gap: 0;
+    height: 9rem;
+    transform: none;
+    flex-direction: row;
     align-items: center;
-    padding: 2rem 0;
-    flex-direction: column;
-    transform: translateX(-19px);
-    background-color: rgba(158, 171, 178, 0.3);
+    padding: 4rem 3.5rem 2rem 3.5rem;
+    justify-content: space-around;
   }
-
-  .logo-footer {
-    width: 3rem;
-    cursor: pointer;
-  }
-
   .footer-content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer-content > div > p {
-    color: var(--Dark-Grayish-Blue);
-    cursor: pointer;
-  }
-
-  .footer-content > p {
-    color: var(--Dark-Grayish-Blue);
-    cursor: pointer;
-  }
-
-  .social-media {
     gap: 2rem;
-    display: flex;
-    cursor: pointer;
+    flex-direction: row;
+  }
+  .footer-content > p {
+    width: 7rem;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .footer-content > div > p {
+    width: 7rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1430px) {
+  .header-logo {
+    top: 150px;
+    left: 650px;
+  }
+  .keep-track {
+    margin-bottom: 7rem;
+  }
+  .keep-track > p {
+    width: 40rem;
+  }
+  .laptop {
+    width: 47rem;
+  }
+  .computer {
+    left: -400px;
+  }
+  .create-text-preview > div {
+    justify-content: center;
+  }
+  .create-text-preview > div > p {
+    width: 21rem;
   }
 }
