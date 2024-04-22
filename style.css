@@ -38,6 +38,7 @@ header {
   width: 99vw;
   display: flex;
   padding: 1rem 0;
+  margin-bottom: 6rem;
   align-items: center;
   background-size: cover;
   flex-direction: column;
