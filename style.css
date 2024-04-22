@@ -194,6 +194,7 @@ header > p {
   gap: 1rem;
   display: flex;
   align-items: center;
+  margin-bottom: 7rem;
   flex-direction: column;
 }
 
@@ -242,7 +243,6 @@ footer {
 }
 
 .social-logo {
-  z-index: 5;
 }
 
 .social-logo:hover {
